@@ -1,0 +1,7 @@
+# 2-Makefile
+
+CC = gcc
+SRC = main.c school.c
+NAME = school
+all: ${OBJ}
+	${CC} ${OBJ} -O ${NAME}  
